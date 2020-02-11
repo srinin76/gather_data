@@ -1,0 +1,157 @@
+1. download the screens from screener
+2. identify what are the top frequently used filters
+3. find stocks that are worth buying? qualify worth? 
+4. start investing in stocks
+
+
+to mimic good investors
+1. find out the investors who are worth following - worth being - genuine investors, not traders, not manipulators
+2. find out where they are buying - mimic them 
+
+from bulk deals 
+1. find out who is buying in bulk or blocks
+2. find out more abou the company that they are buying
+3. find out what is the impact on the company because fo them - probably a good way to find out who the good investors are
+
+from mutual funds 
+1. see what small caps mutual funds are investing in 
+2. find out who are the successful mutual funds
+
+
+learning
+https://www.valueresearchonline.com/valueinvesting/
+jindal saw, ionexchange, satia industries
+https://globaldatafeeds.in/api/
+https://www.marketcalls.in/amibroker/exploring-yahoo-realtime-data-feed.html
+https://blog.quantinsti.com/stock-market-data-analysis-python/
+https://www.quantopian.com/tutorials/getting-started#lesson3
+
+
+
+
+from currency data - trade in currency because it is not manipulated. 
+1. trade b/w yuan and inr 
+2. find out news that influence yuan or inr
+3. buy yuan when it is lower than 10 inr
+4. 
+
+--------------
+
+midcap funds
+small cap funds
+debt mutual funds - find growth and best funds to invest directly
+soverign gold bonds
+
+how to find what stocks are
+most volatile
+most overbroght
+most undersold
+
+find more about the below companies - what changed? for the spike
+intlcombq
+innovtec
+deccan gold mines
+kuantum papers
+bsl ltd
+malu papers
+--
+
+------------
+
+https://www1.nseindia.com/content/historical/EQUITIES/2020/FEB/cm07FEB2020bhav.csv.zip
+
+i now have historical bulk - block deals for some years - 
+i have yahoo downloads for some stocks 
+
+now i need to marry the two
+1. map the yahoo tickers to nse tickers
+2. find the correlation between bulk/block data and the tickers to see volume influencers
+
+yahoo does not seem to have the full data 
+
+
+scrapy - solves most problems 
+what do i need to do 
+1. solve for 1 - by extracting data for 1 stock and then can extract for multiple 
+    need to know
+        how to login - required for custom ratios
+        download csv - ease of importing
+
+
+investing in a company is better in the long term than to trade
+key principles are
+1. protect principal against inflation
+    - set an interval for subramani - get the money into another investment
+    - re-invest the interest into another investment
+2. Need discipline to divide 24 hours into tangible buckets for outcome
+    - spiritual
+    - health
+    - investmetns
+        trading
+        investing
+        rental income
+        commercial buildings
+3. Rental income is better as it is at least steady cashflow that will protect livelihood
+    - sell the house
+    - invest in 6 houses @ 20 lakhs
+    - repay the loan and move forward
+4. commercial properties attract gst where as rental properties do not attract gst
+5. 
+
+
+downloaded data needs to be uploaded first in the database - then we worry about new features 
+
+screener - allows to run screens without login - once you can run screens more automatically to get list of companies
+ df = pd.read_html(resp.content)
+
+
+quant tools for python
+    pyalgotrade - 
+    pyfolio
+    zipline
+    quantecon
+    finmarketpy
+    ffn
+    scipy
+    scikit-learn
+    https://analyticsindiamag.com/top-7-python-libraries-popular-in-the-fintech-sector/
+https://www.quantlib.org/docs.shtml
+https://home.tpq.io/ 
+https://www.codementor.io/blog/quantitative-trading-6i4dw8wj4z
+https://pypi.org/project/quant/
+https://github.com/google/tf-quant-finance
+
+
+below - blog implements tensor flow to predict the closing prices
+https://ipythonquant.wordpress.com/2018/05/22/tensorflow-meets-quantitative-finance-pricing-exotic-options-with-monte-carlo-simulations-in-tensorflow/
+https://colab.research.google.com/github/google/tf-quant-finance/blob/master/tf_quant_finance/examples/jupyter_notebooks/Monte_Carlo_Euler_Scheme.ipynb#scrollTo=WRYk-nfL_QQj
+https://arxiv.org/pdf/1906.02818.pdf
+
+
+https://www.datacamp.com/community/tutorials/finance-python-trading
+
+derivatives analysis with python - yves hilpisch
+python for finance - yves hilpisch
+listed volatility and variance derivatives - yves hilpisch
+
+
+lot of useful features in nsetools.py
+    - list of all URLs available - specifically gainer, losers, advance, decline , active, peer, history
+    - ability to fetch history per symbol - this is useful to get historical data for 15 years
+    - good feature request to fetch details of portfolio - if bulk offloads might be worthwhile to investigate
+
+trading with python - interesting concept of using an yaml
+
+
+
+ability to pick the right stock from the universe and then copmute its return over a period of time is more scientific
+than to only speculate 
+also ability to look at who is investing in this stock and what has been the historical trend in their approach
+also look at what stocks do these people frequently invest to see if there is a pattern - ignore noise of people who 
+sell on the same day 
+--------------------
+| top 50 predicted | 3 days | 1 week | 2 weeks | 1 month | 3 months | 1 year |
+| top 20 signalse  | 0.21%  | 0.35%  | 0.67%   | 1.35 %  | 4.04%    | 12.1%  |
+| top 20 signalse  | x%     | y% 
+|
+===================

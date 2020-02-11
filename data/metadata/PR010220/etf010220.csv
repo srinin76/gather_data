@@ -1,0 +1,77 @@
+MARKET,SERIES,SYMBOL,SECURITY,PREVIOUS CLOSE PRICE,OPEN PRICE,HIGH PRICE,LOW PRICE,CLOSE PRICE,NET TRADED VALUE,NET TRADED QTY,TRADES,52 WEEK HIGH,52 WEEK LOW,UNDERLYING
+N,EQ,ABSLBANETF,BIRLASLAMC - ABSLBANETF,       306.61,       307.45,       307.45,       296.47,       299.67,                    10304.07,34,6,       330.00,       275.19,NIFTY BANK
+N,EQ,ABSLNN50ET,BIRLASLAMC - ABSLNN50ET,       285.96,       286.00,       288.26,       275.90,       275.90,                    79411.43,279,12,       340.00,       250.10,NIFTY NEXT 50 ETF
+N,EQ,AXISGOLD,AXIS MF - AXIS GOLD ETF,      3563.20,      3695.00,      3695.00,      3574.05,      3587.15,                  1053703.75,294,78,      3697.95,      2702.20,GOLD
+N,EQ,AXISNIFTY,AXISAMC - AXISNIFTY,      1232.30,      1237.54,      1240.56,      1200.00,      1208.02,                   639721.74,523,35,      1434.34,      1015.00,NIFTY 50
+N,EQ,BANKBEES,NIPPONINDIA ETF BANK BEES,       316.90,       316.50,       316.50,       303.09,       304.68,                146179227.56,472932,5961,      3298.88,       303.09,NIFTY BANK
+N,EQ,BSLGOLDETF,ADITYBIRLA SL GOLD ETF-GR,      3784.00,      3819.00,      3846.00,      3787.95,      3810.55,                   307879.80,81,32,      3952.60,      2828.00,GOLD
+N,EQ,BSLNIFTY,ADITYBIRLA SL NIF ETF-GR,       130.83,       133.19,       138.00,       127.19,       127.44,                   670376.74,5228,46,       140.00,       111.25,NIFTY 50
+N,EQ,CPSEETF,CPSE ETF,        20.68,        20.78,        20.78,        20.21,        20.26,                124124652.01,6064185,38487,        31.70,        20.00,NIFTY CPSE
+N,EQ,EBBETF0423,EDELAMC - EBBETF0423,      1005.15,      1005.25,      1007.55,      1005.18,      1005.69,                   945239.80,940,97,      1007.55,       953.65,NIFTY BHARAT BOND
+N,EQ,EBBETF0430,EDELAMC - EBBETF0430,      1003.99,      1005.00,      1010.00,      1001.50,      1002.29,                  6089725.58,6072,131,      1010.00,       999.01,NIFTY BHARAT BOND
+N,EQ,EQ30,EDEL ETF NIFTY 100 QUAL30,       344.00,       344.00,       344.00,       344.00,       344.00,                    16512.00,48,3,       352.36,       260.04,NIFTY QUALITY 30
+N,EQ,GOLDBEES,NIPP IND ETF GOLD BEES,        35.87,        36.45,        36.45,        36.05,        36.21,                 56336932.30,1557021,3948,      3555.00,        30.10,GOLD
+N,EQ,GOLDSHARE,UTI GOLD ETF,      3606.40,      3608.50,      3647.35,      3599.95,      3628.15,                  4311741.55,1189,214,      3816.00,      2783.00,GOLD
+N,EQ,HDFCMFGETF,HDFC GOLD ETF,      3660.85,      3666.70,      3715.50,      3666.70,      3697.00,                  6190424.10,1674,293,      3739.80,      2840.70,GOLD
+N,EQ,HDFCNIFETF,HDFCAMC - HDFCNIFETF,      1261.08,      1251.90,      1288.44,      1240.00,      1267.28,                  2432871.11,1938,246,      1331.40,       978.30,NIFTY
+N,EQ,HDFCSENETF,HDFCAMC - HDFCSENETF,      4315.24,      4288.70,      4966.00,      4237.77,      4619.26,                  1054698.01,240,93,      4966.00,      3500.00,SENSEX
+N,EQ,HNGSNGBEES,NIP IN ETF HANG SENG BEES,       355.19,       355.19,       359.99,       350.01,       352.58,                    96452.63,272,36,      3756.89,       321.95,HANG SENG INDEX
+N,EQ,IBMFNIFTY,IBULLSAMC - IBMFNIFTY,       118.95,       117.15,       119.00,       113.50,       118.88,                    20912.30,178,17,       140.00,       100.58,NIFTY 50
+N,EQ,ICICI500,ICICIPRAMC - ICICI500,       160.02,       161.00,       164.99,       157.51,       161.34,                   218569.30,1359,113,       181.60,       130.00,S&P BSE 500 INDEX
+N,EQ,ICICIB22,ICICIPRAMC - BHARATIWIN,        33.47,        33.27,        33.60,        32.98,        33.03,                 10877401.76,327318,1999,        39.90,        31.53,S&P BSE BHARAT 22 INDEX
+N,EQ,ICICIBANKN,ICICIPRAMC - IPRU5008,       310.33,       307.26,       313.00,       301.06,       304.73,                 30776267.02,100823,720,       374.20,       260.00,NIFTY BANK
+N,EQ,ICICIBANKP,ICICIPRAMC - ICICIBANKP,       170.48,       169.70,       170.14,       165.00,       165.58,                   643504.25,3826,105,       185.50,       140.00,NIFTY PRIVATE BANK INDEX
+N,EQ,ICICIGOLD,ICICI PRUDENTIAL GOLD ETF,        36.64,        38.10,        38.10,        35.00,        36.91,                  1111381.40,30106,652,        40.50,        24.50,GOLD
+N,EQ,ICICILIQ,ICICIPRAMC - ICICILIQ,       999.99,       999.95,      1000.00,       999.95,       999.99,                 11927981.56,11928,38,      1200.00,       810.90,S&P BSE LIQUID RATE INDEX
+N,EQ,ICICILOVOL,ICICI PR NIF LW VL 30 ETF,        91.99,        93.70,        93.70,        90.06,        90.44,                   396002.00,4356,165,       107.80,        72.30,NIFTY 100 LOW VOLATILITY 30 INDEX
+N,EQ,ICICIM150,ICICIPRAMC - ICICIM150,        66.91,        67.18,        67.18,        65.50,        65.74,                   517147.30,7787,326,        72.00,        62.15,NIFTY MIDCAP 150
+N,EQ,ICICIMCAP,ICICI PRUD MIDCAP SEL ETF,        67.72,        67.57,        68.75,        66.20,        66.50,                  1951343.72,29229,419,        79.00,        56.00,S&P BSE MIDCAP SELECT INDEX
+N,EQ,ICICINF100,ICICI PRUD NIFTY 100 ETF,       129.94,       129.50,       130.55,       126.40,       126.90,                   612716.85,4803,127,       150.00,       110.00,NIFTY 100
+N,EQ,ICICINIFTY,ICICI PRUD NIFTY ETF,       126.24,       126.80,       126.80,       122.45,       122.96,                623307239.85,4965002,7759,       141.00,       104.90,NIFTY50
+N,EQ,ICICINV20,ICICI PRUDENTIAL NV20 ETF,        56.41,        57.40,        57.40,        56.11,        56.42,                   254802.73,4511,272,        68.50,        43.10,NIFTY50 VALUE 20
+N,EQ,ICICINXT50,ICICIPRAMC - ICICINXT50,        28.65,        28.00,        28.95,        27.60,        27.79,                  1501017.74,53410,414,        30.77,        23.00,NIFTY NEXT 50 ETF
+N,EQ,ICICISENSX,ICICI PRUD SENSEX ETF,       435.11,       434.54,       437.00,       424.00,       425.02,                  2571412.30,5948,321,       515.00,       335.95,SENSEX
+N,EQ,IDBIGOLD,IDBI MF - IDBI GOLD ETF,      3740.00,      3742.05,      3760.05,      3742.05,      3752.00,                   146262.05,39,12,      4000.00,      2892.20,GOLD
+N,EQ,IDFNIFTYET,IDFCAMC - IDFNIFTYET,       127.00,       129.00,       133.00,       119.20,       120.19,                    14047.60,112,18,       134.50,       103.92,NIFTY 50
+N,EQ,INFRABEES,NIPP INDIA ETF INFRA BEES,       337.55,       343.00,       353.90,       336.95,       350.64,                    53808.91,156,53,       373.50,       286.57,NIFTY INFRA
+N,EQ,IVZINGOLD,INVESCO INDIA GOLD ETF,      3700.00,      3720.00,      3775.00,      3720.00,      3775.00,                    59680.00,16,4,      4193.30,      2800.00,GOLD
+N,EQ,IVZINNIFTY,INVESCO INDIA NIFTY ETF,      1303.90,      1316.00,      1336.00,      1316.00,      1330.00,                     6644.00,5,5,      1340.00,      1098.00,NIFTY
+N,EQ,JUNIORBEES,NIP INDIA ETF JUNIOR BEES,       294.63,       295.88,       297.06,       285.20,       286.27,                 20478856.88,70620,3089,       333.00,       257.30,NIFTY NEXT 50
+N,EQ,KOTAKBKETF,KOTAKMAMC-KOTAKBKETF,       317.49,       318.06,       318.06,       306.11,       307.75,               1260812556.81,3974192,1530,       368.00,       266.70,NIFTY BANK
+N,EQ,KOTAKGOLD,KOTAK GOLD ETF,       359.05,       351.90,       364.40,       312.40,       362.35,                  6093571.85,17118,608,       368.50,       275.05,GOLD
+N,EQ,KOTAKNIFTY,KOTAK NIFTY ETF,       124.00,       123.81,       125.00,       122.31,       122.77,                 29465692.39,237019,1290,       149.30,       105.00,NIFTY 50
+N,EQ,KOTAKNV20,KOTAKMAMC - KTKNV20ETF,        57.44,        58.90,        59.99,        56.80,        57.44,                   983334.31,17007,164,        69.00,        52.25,NIFTY50 VALUE 20
+N,EQ,KOTAKPSUBK,KOTAK PSU BANK,       234.03,       235.00,       237.55,       223.00,       225.64,                  1174306.94,5064,252,       355.00,       211.70,NIFTY PSU BANK INDEX
+N,EQ,LICNETFGSC,LICNAMC - LICNMFET,        18.94,        19.38,        19.38,        18.61,        18.99,                    14740.01,771,38,        23.75,        16.25,GSEC 10 NSE INDEX
+N,EQ,LICNETFN50,LICNAMC - LICNFENGP,       121.82,       122.00,       123.00,       112.01,       116.26,                   195240.67,1670,185,       148.00,       101.00,NIFTY 50
+N,EQ,LICNETFSEN,LICNAMC - LICNFESGP,       514.00,       490.00,       514.50,       481.00,       484.00,                     4933.49,10,6,       525.00,       354.00,SENSEX
+N,EQ,LICNFNHGP,LICNAMC - LICNFNHGP,       121.01,       124.50,       129.90,       121.50,       122.99,                    10527.66,84,23,       136.00,       101.00,LIC MF EXCHANGE TRADED FUND- NIFTY 100
+N,EQ,LIQUIDBEES,NIP IND ETF LIQUID BEES,      1000.00,      1000.00,      1000.01,       999.60,      1000.00,                858625118.90,858623,3255,      1010.00,       991.56,CALL MONEY SHORT TERM G-SECS & MONEY MARKET INSTR
+N,EQ,LIQUIDETF,DSP LIQUID ETF,      1000.00,      1000.00,      1000.01,       999.99,       999.99,                 17450851.41,17451,349,      1000.06,       875.00,NIFTY1D RATE INDEX
+N,EQ,M100,MOST SHARES M100 ETF,        18.94,        18.85,        19.43,        18.80,        18.99,                  1949446.23,102370,344,        21.00,        14.80,NIFTY MIDCAP 100
+N,EQ,M50,MOST SHARES M50 ETF,       117.79,       118.56,       120.50,       116.00,       116.82,                    43690.74,373,22,       122.95,        95.10,NIFTY 50
+N,EQ,MAN50ETF,MIRAEAMC - MAN50ETF,       121.38,       120.80,       121.90,       118.00,       118.60,                  3361197.75,28121,961,       135.00,       100.10,NIFTY 50
+N,EQ,MANXT50,MIRAEAMC - MANXT50,       284.67,       283.50,       286.50,       272.50,       274.31,                  1650856.79,5880,86,       338.00,       241.07,NIFTY NEXT 50
+N,EQ,N100,MOST SHARES N100 ETF,       648.65,       645.95,       646.95,       635.00,       638.13,                  4928492.52,7719,693,       660.00,       460.00,NASDAQ100
+N,EQ,NETF,TATAAML - NETF,       121.03,       119.46,       119.46,       118.80,       118.80,                     2742.30,23,4,       132.00,       103.10,NIFTY 50
+N,EQ,NETFCONSUM,NIPPO IND ETF CONSUMPTION,        54.25,        55.90,        56.80,        53.36,        53.36,                   180422.04,3297,46,        61.00,        45.00,NIFTY CONSUMPTION INDEX
+N,EQ,NETFDIVOPP,NIP ETF DIV OPPORTUNITIES,        29.17,        28.94,        29.09,        28.47,        28.58,                     6426.54,224,20,        34.00,        25.10,NIFTY DIV OPPS 50
+N,EQ,NETFLTGILT,NI IND ETF LONG TERM GILT,        20.27,        20.32,        20.60,        19.76,        20.02,                   115692.71,5642,58,        24.00,        15.05,NIFTY GS 8 13YR
+N,EQ,NETFMID150,NI I ETF NIFTY MIDCAP 150,        66.79,        66.20,        67.58,        65.51,        66.03,                 11676243.67,174212,204,        75.70,        52.00,NIFTY MIDCAP 150
+N,EQ,NETFNIF100,NIPP INDIA ETF NIFTY 100,       124.43,       125.01,       125.01,       120.25,       121.84,                    46046.70,377,16,       132.99,       101.30,NIFTY 100
+N,EQ,NETFNV20,NIPPON INDIA ETF NV20,        57.59,        57.41,        57.95,        56.69,        56.75,                   992783.31,17360,47,       646.00,        56.10,NIFTY50 VALUE 20
+N,EQ,NIFTYBEES,NIPPO IND ETF NIFTY BEES,       127.17,       127.35,       127.78,       123.60,       124.71,                135737910.17,1076883,10932,      1295.00,       123.60,NIFTY 50
+N,EQ,NPBET,TATAAML - NPBET,       172.66,       172.08,       172.08,       165.74,       167.12,                    94376.72,558,11,       190.00,       126.00,NIFTY PRIVATE BANK INDEX
+N,EQ,PSUBNKBEES,NIPP IN ETF PSU BANK BEES,        26.30,        26.00,        26.33,        25.00,        25.25,                  1247797.60,48490,272,       410.00,        25.00,NIFTY PSU BANK INDEX
+N,EQ,QGOLDHALF,QUANTUM GOLD FUND,      1781.85,      1782.00,      1801.95,      1782.00,      1800.30,                   761401.75,423,71,      1828.10,      1375.55,GOLD
+N,EQ,QNIFTY,QUANTUM NIFTY ETF,      1233.00,      1230.00,      1230.00,      1206.00,      1206.71,                   123926.40,102,27,      1406.00,      1068.71,NIFTY 50
+N,EQ,SBIETFQLTY,SBIAMC - SBIETFQLTY,       100.50,       102.00,       115.00,        98.50,        99.00,                   766178.01,7732,107,       115.00,        89.00,NIFTY 200 QUALITY 30 INDEX
+N,EQ,SETF10GILT,SBIAMC - SETF10GILT,       181.01,       187.98,       188.00,       187.98,       188.00,                     1503.88,8,3,       222.27,       161.00,NIFTY 10 YR BENCHMARK G-SEC INDEX
+N,EQ,SETFGOLD,SBI-ETF GOLD,      3659.85,      3663.50,      3712.00,      3663.50,      3703.00,                 12460256.15,3369,762,      3898.30,      2815.30,GOLD
+N,EQ,SETFNIF50,SBI-ETF NIFTY 50,       123.86,       124.50,       124.59,       120.80,       121.89,                 30724582.97,249473,2072,       138.55,       107.80,NIFTY 50
+N,EQ,SETFNIFBK,SBI-ETF NIFTY BANK,       312.39,       310.00,       313.53,       301.30,       302.39,                390629394.17,1283112,1718,       373.20,       260.00,NIFTY BANK
+N,EQ,SETFNN50,SBI-ETF NIFTY NEXT 50,       291.88,       295.00,       298.45,       282.25,       285.96,                 18503200.39,63540,358,       328.10,       240.90,NIFTY NEXT 50
+N,EQ,SHARIABEES,NIPP IND ETF SHARIAH BEES,       260.74,       260.00,       260.00,       257.27,       258.81,                     5188.93,20,10,       277.00,       232.00,SHARIAH INDEX
+N,EQ,UTINEXT50,UTIAMC - UTINEXT50,       293.99,       299.40,       299.98,       290.50,       299.91,                    33725.88,113,24,       335.00,       255.20,NIFTY NEXT 50
+N,EQ,UTINIFTETF,UTIAMC - UTINIFTETF,      1279.37,      1294.10,      1382.90,      1233.00,      1269.22,                   326906.25,257,115,      1406.00,      1107.20,NIFTY 50
+N,EQ,UTISENSETF,UTIAMC - UTISENSETF,       432.85,       434.01,       437.00,       425.70,       431.18,                   504365.50,1176,118,       456.00,       340.00,SENSEX
