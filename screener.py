@@ -55,23 +55,27 @@ def log_error(e):
 
 # no point of logging in - it is going to default page without the login
 def login():
-    resp = simple_get(base)
-    soup = BeautifulSoup(resp, 'html.parser')
-    select = soup.find_all('a', {'class:','nav-item'})
-    for i  in select:
-        if (i.attrs['href'].find('login') > 0):
-            login = base + i.attrs['href']
-        if(i.attrs['href'].find('screen')>0):
-            screens= base + i.attrs['href']
+resp = simple_get(base)
+soup =bs(resp, 'html.parser')
+select = soup.find_all('a', {'class:','nav-item'})
+for i  in select:
+    if (i.attrs['href'].find('login') > 0):
+        login = base + i.attrs['href']
+    if(i.attrs['href'].find('screen')>0):
+        screens= base + i.attrs['href']
 
 
     # simple_get will not work with base1 - as we need to post with session going forward
-    session = requests.session()
-    resp = session.get(login)
-    soup = BeautifulSoup(resp.text,'html.parser')
-    select = soup.find('input', {'name': 'csrfmiddlewaretoken'})
-    params = { "id_username": 'srinivasan76@gmail.com' , "id_password": 'aa123456', select.attrs['name']: select.attrs['value']}
-    resp = session.post(base, data = params,headers={'referer': base})
+session = requests.session()
+resp = session.get(login)
+
+## ### TODO: response Set-Cookie - contains csrf token
+## ### it is also available in session.cookies
+
+soup = bs(resp.text,'html.parser')
+select = soup.find('input', {'name': 'csrfmiddlewaretoken'})
+params = { "id_username": 'srinivasan76@gmail.com' , "id_password": 'aa123456', 'csrfmiddlewaretoken' : session.cookies['csrftoken']}
+resp = session.post(login, data = params,headers={'referer': base})
 
 def getCompanyProfile(asURL):
     resp = requests.get(asURL)

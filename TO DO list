@@ -1,0 +1,57 @@
+TO DO list
+
+https://www.quantconnect.com/tutorials/introduction-to-options/historical-volatility-and-implied-volatility
+
+https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054
+
+https://medium.com/analytics-vidhya/how-volatility-affects-a-stocks-return-tested-with-python-cdf7470d3808
+
+https://aaronschlegel.me/implied-volatility-functions-python.html 
+
+
+https://tinytrader.io/2019/01/02/how-to-calculate-historical-price-volatility-with-python/
+
+https://blog.quantinsti.com/volatility-and-measures-of-risk-adjusted-return-based-on-volatility/
+
+http://dogdogfish.com/data-visualisation/finding-and-trading-volatile-stocks-in-python/
+
+
+1. for all stocks in the database - find its
+    - mean, median, std-dev, variance
+    - find their correlation to the different NIFTY indexes - you need the index history for the same range
+    
+
+2. Group companies by their nifty indexes and find how they are growing
+    - nifty index constituents download available at
+    - nifty index historical data available at (https://www1.nseindia.com/products/content/equities/indices/historical_index_data.htm)
+
+3. find the companies in which mutual funds are investing
+4. find correlation between bulk/block deals and the price of stocks
+5. find the patterns in volume 
+    - what stocks have a momentum - how to make money of it?
+    - what are the patterns before a breakout? SMA LMA? RSI?
+    - 
+6. Build the metrics 
+    - total profit - you need to define a trading signal - which is to use one of the methodology from earlier - the total profits should be computed independent of the method - review the course from before how to compute total profit - exceptions 
+        - you need to square off your last buy
+        - when you switch b/w buy and sell - do you enter into a new position 
+    - hit ratio
+    - sharpe ratio
+    - drawdowns
+    - vwap
+    - generate a stop loss for each buy and a target price to sell at 
+ 
+    -------------------------------------------------------------------------------------------
+    create a new table - that has reference to 
+        ticker + Date, what is the VWAP 
+    ===========================================================================================
+ 
+ 7. download the futures metrics and understand what was taught yesterday
+    - open interest
+    - cost of carry
+    - volume traded
+8. there is something called as volatility index in NSE - see how it can be correlated 
+
+    Volatility Index is a measure of market’s expectation of volatility over the near term. Volatility is often described as the “rate and magnitude of changes in prices" and in finance often referred to as risk. Volatility Index is a measure, of the amount by which an underlying Index is expected to fluctuate, in the near term, (calculated as annualised volatility, denoted in percentage e.g. 20%) based on the order book of the underlying index options.
+    India VIX is a volatility index based on the NIFTY Index Option prices. From the best bid-ask prices of NIFTY Options contracts, a volatility figure (%) is calculated which indicates the expected market volatility over the next 30 calendar days. India VIX uses the computation methodology of CBOE, with suitable amendments to adapt to the NIFTY options order book using cubic splines, etc.
+

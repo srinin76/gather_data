@@ -47,8 +47,8 @@ def bhavcopy(start_date, end_date):
             
 
 def get_bhavopy():
-    d1 = date(2018, 9, 29)  # start date - can download from 2016
-    d2 = date(2020, 12, 31)  # end date
+    d1 = date(2020, 5, 1)  # start date - can download from 2016
+    d2 = date(2020, 5, 8)  # end date
     bhavcopy(d1,d2)
 
 

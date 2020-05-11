@@ -130,6 +130,10 @@ https://arxiv.org/pdf/1906.02818.pdf
 
 https://www.datacamp.com/community/tutorials/finance-python-trading
 
+https://towardsdatascience.com/algorithmic-trading-bot-python-ab8f42c37145
+
+https://www.followingthetrend.com/trading-evolved/ ---- with examples
+
 derivatives analysis with python - yves hilpisch
 python for finance - yves hilpisch
 listed volatility and variance derivatives - yves hilpisch
@@ -142,6 +146,32 @@ lot of useful features in nsetools.py
 
 trading with python - interesting concept of using an yaml
 
+momentum strategy
+
+
+awareness of the domain and the signals is important to understand the momentum for e.g., 
+cannot completely forget about options and futures - perhaps their movement has a bearing on the stocks 
+
+
+use historical data to generate patterns - pay attention to recent data to see more patterns
+
+patterns could also be how much is the variance between stocks 
+
+what is the outcome? the outcome is to buy a stock with minimal investment and maximum returns
+- check for stocks that dont have volume but are still rising
+- check for companies that are related - for e.g., if amul is having losses then is kwality / arun having losses
+- check who is buying and holding the stock for what duration and what was the impmact on the stock
+
+
+
+https://towardsdatascience.com/python-for-finance-stock-portfolio-analyses-6da4c3e61054
+compare stocks to indexes to see if the stock is performing better, if the stock is 
+closign below 25% (you can decide which one is it) of the index then sell it
+
+learn what is google datalab
+
+
+https://www.chemicals-technology.com/projects/andhra-petrochemical/
 
 
 ability to pick the right stock from the universe and then copmute its return over a period of time is more scientific
@@ -155,3 +185,17 @@ sell on the same day
 | top 20 signalse  | x%     | y% 
 |
 ===================
+
+
+retail investors to follow
+
+jet age secrurities - Devvrat Himatsingka:
+Siddharth Mehta
+Ankit Gupta - Bamboo capital partner
+omkar kulkarni 
+keshav garg
+Ajit Murur
+Ajay Sharma - Cycas Investment Advisors
+
+
+

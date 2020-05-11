@@ -12,12 +12,12 @@ import csv
 from datetime import date, timedelta
 import requests
 
-def bhavcopy(start_date, end_date):
+def bhavcopy(start_date,     end_date):
 
     delta = end_date - start_date         # timedelta
     print(delta)
 
-    req_cols = ['SYMBOL','TIMESTAMP','OPEN','HIGH','LOW','CLOSE','TOTTRDQTY']
+    req_cols = ['SYMBOL','TIMESTAMP','OPEN','HIGH','LOW','CLOSE','TOTTRDQTY', 'TOTALTRADES', 'PREVCLOSE']
     for i in range(delta.days + 1):
         cur_day= (start_date+ timedelta(days=i))
         WkdaY = cur_day.weekday()
@@ -48,8 +48,8 @@ def bhavcopy(start_date, end_date):
             
 
 def get_bhavopy():
-    d1 = date(2018, 9, 29)  # start date - can download from 2016
-    d2 = date(2020, 12, 31)  # end date
+    d1 = date(2019, 1, 26)  # start date - can download from 2016
+    d2 = date(2020, 5, 8)  # end date
     bhavcopy(d1,d2)
 
 
