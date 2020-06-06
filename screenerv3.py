@@ -20,12 +20,12 @@ base = 'https://screener.in'
 login = 'https://screener.in/login'
 session = requests.session()
 resp = session.get(login)
-params = { "id_username": 'srinivasan76@gmail.com' ,"id_password": 'aa123456','csrfmiddlewaretoken' : session.cookies['csrftoken']}
+params = { "id_username": 'srinivasan76@gmail.com' ,"id_password": 'xxxx','csrfmiddlewaretoken' : session.cookies['csrftoken']}
 resp = session.post(login,data=params,headers=dict(Referer=login))
 # key is to set the session id from the browser to have the direct authentication
 jar = requests.cookies.RequestsCookieJar()
 # https://www.youtube.com/watch?time_continue=448&v=PpaCpudEh2o&feature=emb_logo
-jar.set =  jar.set ('sessionid','gxakx7e9ge2kqwnn0lwl57u6m6ynymvs')
+jar.set =  jar.set ('sessionid','extract new')
 session.cookies = jar
 session.headers.update ({'User-Agent' : 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/80.0.3987.87 Chrome/80.0.3987.87 Safari/537.36'})
 
